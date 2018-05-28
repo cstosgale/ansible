@@ -1,3 +1,5 @@
+- name: Hello World Sample
+  hosts: all
 tasks:
   - name: run show inventory on remote devices
     ios_command:
